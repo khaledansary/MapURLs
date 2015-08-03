@@ -5,7 +5,7 @@
 The program read the file which contains mapped short->expanded URLs seperated by tab
 
 it create first map called url_map which contains 
-as key = short_url  and values = list of expanded_urls which under this short_url
+as key = short_url  and values = list of expanded_urls which under the same short_url
 
 for example,
 
