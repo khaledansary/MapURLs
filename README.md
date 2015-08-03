@@ -37,7 +37,7 @@ The function takes the list of expanded urls and sort the list by the length of 
 
 then take the longest lenth of expanded URL as a standard URL
 
-So, the standard_url_map contains the all uniqe short url mapping with unique expanded url
+So, the standard_url_map contains the all unique short url mapping with unique expanded url
 
 
 
