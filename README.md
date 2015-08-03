@@ -9,7 +9,7 @@ as key = short_url  and values = list of expanded_urls which under this short_ur
 
 for example,
 
-http://amzn.to/Zs	http://www.amazon.com\n
+http://amzn.to/Zs	http://www.amazon.com
 http://cl.ly/Z7Ej	http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/More_Features
 http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/
 http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/definition/merchant.html
