@@ -35,7 +35,7 @@ The function getLogestURLs(List<String>) do this
 
 The function takes the list of expanded urls and sort the list by the length of expanded URL if exist more than one expanded URLs under a short URL
 
-then take the longest lenth of expanded URL as a standard URL
+then take the longest length of expanded URL as a standard URL
 
 So, the standard_url_map contains the all unique short url mapping with unique expanded url
 
