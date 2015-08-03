@@ -9,25 +9,25 @@ as key = short_url  and values = list of expanded_urls which under this short_ur
 
 for example,
 
-http://amzn.to/Zs	http://www.amazon.com
-http://cl.ly/Z7Ej	http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/More_Features
-http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/
-http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/definition/merchant.html
-http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/pcia-2014-tower-companies-split-hetnet-technologies/
-http://bit.ly/nH-U	https://nanohub.org/groups/u
-http://j.mp/KkAcun	http://news.mynavi.jp/news/2014/01/16/259/
-http://j.mp/KkAcun	http://news.mynavi.jp/news/2014/01/16/259/definition/merchant.html
+http://amzn.to/Zs	http://www.amazon.com<br />  
+http://cl.ly/Z7Ej	http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/More_Features<br />
+http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/<br />
+http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/definition/merchant.html<br />
+http://bit.ly/n231	http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/pcia-2014-tower-companies-split-hetnet-technologies/<br />
+http://bit.ly/nH-U	https://nanohub.org/groups/u<br />
+http://j.mp/KkAcun	http://news.mynavi.jp/news/2014/01/16/259/<br />
+http://j.mp/KkAcun	http://news.mynavi.jp/news/2014/01/16/259/definition/merchant.html<br />
 
 so, for the above example
 url_map create a Map like
 
-http://amzn.to/Zs	[http://www.amazon.com]
-http://bit.ly/n231	[http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/, http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/definition/merchant.html, http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/pcia-2014-tower-companies-split-hetnet-technologies/]
-http://bit.ly/nH-U	[https://nanohub.org/groups/u]
-http://j.mp/KkAcun	[http://news.mynavi.jp/news/2014/01/16/259/, http://news.mynavi.jp/news/2014/01/16/259/definition/merchant.html]
-http://cl.ly/Z7Ej	[http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/More_Features]
+http://amzn.to/Zs	[http://www.amazon.com]<br />
+http://bit.ly/n231	[http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/, http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/definition/merchant.html, http://www.rcrwireless.com/article/20140521/infrastructure-2/pcia-2014-tower-companies-split-hetnet-technologies/pcia-2014-tower-companies-split-hetnet-technologies/]<br />
+http://bit.ly/nH-U	[https://nanohub.org/groups/u]<br />
+http://j.mp/KkAcun	[http://news.mynavi.jp/news/2014/01/16/259/, http://news.mynavi.jp/news/2014/01/16/259/definition/merchant.html]<br />
+http://cl.ly/Z7Ej	[http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73/More_Features]<br />
 
-In this case http://bit.ly/n231 contains 3 expanded urls and http://j.mp/KkAcun contains 2 expanded urls 
+In this case http://bit.ly/n231 contains 3 expanded urls and http://j.mp/KkAcun contains 2 expanded urls <br />
 
 Now, we have to unify the short url by one standard expanded url
 
